@@ -17,8 +17,8 @@ var thatArray = ["Facebook Platform","Erlang Enthusiasts","Ex-Girlfriends",
 "Surgeons","Pounding Jagger Bombs","Textbooks","Coffee Shops","Baristas"];
 
 
-var todaysThisArray = thisArray[Math.floor(Math.random() * 4)];
+var todaysThisArray = thisArray[Math.floor(Math.random() * thisArray.length)];
 
-var todaysThatArray = thatArray[Math.floor(Math.random() * 4)];
+var todaysThatArray = thatArray[Math.floor(Math.random() * thatArray.length)];
 
 console.log('Your new Startup today could be based on '+ todaysThisArray + ' for ' + todaysThatArray );
