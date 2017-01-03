@@ -1,0 +1,33 @@
+.title{
+    color:green;
+}
+.container {
+  width: 700px;
+  height: 660px;
+  background-image: url('pub.jpg');
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.question{
+  position: fixed;
+  bottom: 64px;
+  margin-left: 10px;
+  color: white;
+}
+.answer{
+  margin-top: 240px;
+}
+#question{
+  width: 400px;
+  font-size: 1em;
+}
+#tedAnswer{
+  color: white;
+  font-size: 1em;
+  float: right;
+  background-color: purple;
+  padding: 10px;
+  margin-right: 10px;
+}

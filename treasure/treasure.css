@@ -1,0 +1,19 @@
+.container {
+  width: 50%;
+  height: 70%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: grey;
+}
+
+.title {
+
+}
+
+.pirate {
+  background-image: url('pirate.png');
+}
+
+.map {
+  background-image: url('map.jpg');
+}

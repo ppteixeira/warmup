@@ -1,0 +1,27 @@
+.container{
+
+}
+#result {
+
+}
+#tails {
+
+}
+#tailsCoin {
+  max-width: 100px;
+  background-image: url('tails.png');
+  background-size: contain;
+  visibility: hidden;
+}
+#heads {
+
+}
+#headsCoin {
+    max-width: 100px;
+    background-image: url('heads.png');
+    background-size: contain;
+    visibility: hidden;
+}
+#winner {
+
+}
